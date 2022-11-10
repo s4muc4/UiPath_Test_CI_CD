@@ -34,7 +34,7 @@ jobs:
     env:
       # Replace with your Orchestrator Values for Production
       PROJECT_NAME: GitHub_Uipath_Example                         
-      PROJECT_FOLDER: ${{ github.action_path }}
+      PROJECT_FOLDER: Shared
       ORCH_URL: https://cloud.uipath.com/samuel_pessoal/PRD
       ORCH_TENANT: ${{ secrets.UIPATH_TENANTNAME }}
       ORCH_CLIENT_ID: ${{ secrets.UIPATH_CLIENTID }}
