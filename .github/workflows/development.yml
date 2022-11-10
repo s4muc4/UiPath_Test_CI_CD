@@ -8,7 +8,7 @@ on:
 # Here the environment variable is declared in workflow level
 env:
   # Replace with your Orchestrator Values 
-  PROJECT_NAME: uipath.github.action                         
+  PROJECT_NAME: uipath.github.test                         
   PROJECT_FOLDER: PESSOAL
   ORCH_URL: https://cloud.uipath.com/samuel_pessoal/DEV
   ORCH_TENANT: ${{ secrets.UIPATH_TENANTNAME }}
