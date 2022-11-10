@@ -87,6 +87,6 @@
         <InArgument x:TypeArguments="x:Int32">[in_n1 + in_n2]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,101" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;[SumNumbers] End&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="338,101" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;[SumNumbers] End.&quot;]" />
   </Sequence>
 </Activity>

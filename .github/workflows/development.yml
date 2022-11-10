@@ -11,10 +11,10 @@ env:
   PROJECT_NAME: uipath.github.action                         
   PROJECT_FOLDER: ${{ github.action_path }}
   ORCH_URL: https://cloud.uipath.com/samuel_pessoal/DEV
-  ORCH_TENANT: ${{ secrets.UIPATHTENANTNAME }}
-  ORCH_CLIENT_ID: ${{ secrets.UIPATHCLIENTID }}
-  ORCH_USER_KEY: ${{ secrets.UIPATHUSERKEY }}
-  ORCH_ACC_NAME: ${{ secrets.UIPATHACCOUNTNAME }}
+  ORCH_TENANT: ${{ secrets.UIPATH_TENANTNAME }}
+  ORCH_CLIENT_ID: ${{ secrets.UIPATH_CLIENTID }}
+  ORCH_USER_KEY: ${{ secrets.UIPATH_USERKEY }}
+  ORCH_ACC_NAME: ${{ secrets.UIPATH_ORGANIZATIONID }}
 
 jobs:
   print-details:
